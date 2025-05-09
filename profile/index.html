@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>プロフィール</title>
+    <!-- Font Awesome CDNを追加 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap');
         
@@ -112,6 +114,32 @@
             line-height: 1.8;
             text-align: justify;
         }
+        .sns-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .sns-links a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: #d9c7a7;
+            color: #6b4226;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid #b39b7c;
+        }
+        .sns-links a:hover {
+            background-color: #6b4226;
+            color: #fff9e6;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+        }
     </style>
 </head>
 <body>
@@ -138,6 +166,13 @@
                 <li>音楽を聞くこと、歌うこと</li>
                 <li>写真撮影</li>
             </ul>
+        </section>
+
+        <section>
+            <h2>SNS</h2>
+            <div class="sns-links">
+                <a href="https://github.com/gorutin0438" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> 
+            </div>
         </section>
 
     </div>
