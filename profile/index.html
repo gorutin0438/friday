@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プロフィール</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Noto Serif JP', serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f3e6;
+            color: #3a3a3a;
+            background-image: url('https://www.transparenttextures.com/patterns/paper.png');
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: #fff9e6;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            border: 1px solid #d9c7a7;
+            border-radius: 8px;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #d9c7a7;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 20px;
+            display: block;
+            border: 5px solid #d9c7a7;
+            filter: sepia(20%);
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+        }
+        h1 {
+            color: #6b4226;
+            margin-bottom: 5px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .subtitle {
+            color: #8c7158;
+            font-size: 18px;
+            margin-top: 0;
+            font-style: italic;
+            text-align: center;
+        }
+        section {
+            margin: 30px 0;
+            padding: 0 15px;
+        }
+        h2 {
+            border-bottom: 2px solid #d9c7a7;
+            padding-bottom: 5px;
+            color: #6b4226;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background-color: #d9c7a7;
+            color: #6b4226;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            border: 1px solid #b39b7c;
+        }
+        .contact-info {
+            background-color: #f0e6d2;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px dashed #d9c7a7;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #d9c7a7;
+            color: #8c7158;
+            font-style: italic;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 10px;
+        }
+        ul li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
+        }
+        ul li:before {
+            content: "♦";
+            position: absolute;
+            left: 0;
+            color: #b39b7c;
+        }
+        p {
+            line-height: 1.8;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="profile-image.jpg" alt="プロフィール画像" class="profile-image">
+            <h1>春日 葉那</h1>
+            <p class="subtitle">学生</p>
+        </header>
+
+        <section>
+            <h2>自己紹介</h2>
+            <p>
+                春日葉那です。Webサイトの仕組みに興味がありテクノスカレッジに入学しました。
+                レトロなものや雰囲気が好きで、気ままにお散歩をする時があります。
+            </p>
+        </section>
+
+        <section>
+            <h2>趣味</h2>
+            <ul>
+                <li>ゲーム（スプラトゥーン、第五人格など）</li>
+                <li>カフェや喫茶店巡り</li>
+                <li>音楽を聞くこと、歌うこと</li>
+                <li>写真撮影</li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+</html>
