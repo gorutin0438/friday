@@ -27,8 +27,27 @@ body {
     border-left: 24px solid #333;
 }
 
-,
 .main-content-description {
     margin: 16px;
     padding: 8px;
+}
+
+.content-item {
+    margin: 16px;
+    padding: 16px;
+    border: 2px solid #333;
+}
+
+.content-item .content-item {
+    background-color: #eee;
+}
+
+.content-item-title {
+    border-bottom: 1px solid #333;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.copyright {
+    text-align: center;
 }
